@@ -1,0 +1,525 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+#header_section{
+width: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: rgb(30, 39, 39);
+    position: sticky;
+    top: 0px;
+
+}
+ .head h2{
+    margin: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color:rgb(162, 203, 238) ;
+ }
+ .head h2 span{
+    font-size: 15px;
+    color: rgb(249, 15, 7);
+    text-shadow: 5px 5px 5px 5px rgb(128, 0, 85);
+ }
+header nav{
+    list-style: none;
+      padding: 0px, 15px;
+
+      
+}
+header nav ul {
+list-style: none;
+
+    
+}
+header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    
+}
+header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(241, 180, 200);
+     font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: bold; 
+}
+header nav ul li:hover a{
+    color: rgba(247, 239, 246, 0.616);
+} 
+header .link{
+    margin: 10px;
+}
+header .link a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;
+      text-transform: capitalize;
+      color: azure;
+}
+header .link a:hover{
+    color: rgb(220, 212, 227);
+}
+header .link .book{
+   background-color: rgb(158, 240, 240);
+   padding: 6px;
+   font-size: 25px;
+   font-weight: bold;
+   border: 2px solid rgb(0, 200, 255);
+   border-radius: 5px;
+    text-transform: capitalize;
+}
+header .link .book a{
+    font-size: 20px;
+    color: darkblue;
+    font-style: italic;
+}
+header .link .book:hover {
+    background-color:transparent;
+    color: rgb(248, 246, 246);
+    color: aliceblue;
+   
+}
+header .link .book:hover a {
+    color: aliceblue;
+   
+}
+header .link .start{
+    border: 2px solid rgb(152, 119, 119);
+    padding: 6px;
+    font-size: 25px;;
+    font-weight: bold;
+    border-radius: 5px;
+    font-style: italic;
+
+}
+header .link .start a{
+    color: beige;
+    font-size: 20px;
+}
+header .link .start:hover {
+    background-color: aqua;
+
+}
+header .link .start:hover a {
+  color: rgb(7, 56, 58);
+
+}
+ nav ul li:hover .dropdown{
+    
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 90%;
+   
+}
+.dropdown{
+    display: none;
+}
+.dropdown ul{
+    display: block;
+    margin: 10px;
+    color: rgb(7, 125, 243);
+}
+.dropdown ul li{
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(72, 68, 61);
+    box-shadow: 3px 3px 3px 3px rgb(21, 21, 19);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.dropdown ul li a:hover {
+color: rgb(227, 219, 219) ;
+transition: calc(0.8);
+
+}
+
+/* section_0*/
+.section_0{
+     
+    height: 450px;
+    background:linear-gradient(rgba(0, 0, 0, 0.107),black), url(photo/bg_mind.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.section0_perent{
+    width: 650px;
+     border: 2px solid;
+    margin:auto;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.section0_perent h2{
+    color: rgb(176, 247, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-shadow: 5px 5px 5px 5px red;
+    margin-top: 180px;
+    
+}
+.section0_perent input{
+    width: 300px;
+    padding: 10px;
+    font-size: medium;
+    margin: 15px;
+    border: none;
+    color: rgb(2, 47, 87);
+    border-radius: 5px;
+    font-size: medium;
+    background-color: rgb(193, 131, 251);
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+.section0_perent input:hover{
+    background-color: transparent;
+    color: white;
+    transition: calc(0.6s);
+}
+.section0_perent input:hover{
+    background-color: transparent;
+    color: white;
+    transition: calc(0.6s);
+}
+.section0_perent a i {
+    background-color: rgb(10, 230, 238);
+    width: 40px;
+    padding: 8px;
+    font-size:20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(7, 26, 31);
+
+}
+ .section0_perent a i:hover {
+    color: cornsilk;
+    background-color: transparent;
+    transition: calc(0.7);
+ }
+
+/*main section*/
+.main_perent{
+width: 800px;
+margin: 80px auto;
+background-attachment: fixed;
+
+}
+.main_perent h1{
+    color: rgb(79, 76, 76);
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(226, 238, 249);
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.main_perent .profile{
+    display: flex;
+    margin: 15px;
+    margin-top: 25px;
+}
+ .photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+   
+
+}
+.profile .photo img{
+    max-width: 100%;
+    border-radius: 100%;
+  
+}
+ .main_perent .address{
+    display: flex;
+ }
+ .profile .address  {
+ padding:10  ;
+ font-family:Arial, Helvetica, sans-serif;
+ text-transform: capitalize;
+ font-style: italic;
+ font-size: 15px;
+ border-bottom: 2px dotted;
+} 
+.address h2{
+    color:red;
+}
+.address h4{
+    font-size: small;
+    padding-top: 22px;
+    color: blue;
+}
+.content_img{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    
+}
+ .main_perent .content_img img{
+    max-width:100%;
+    height: 100%;
+    
+}
+.main_perent .content_img img:hover {
+    box-shadow: 5px 5px 5px 5px rgb(94, 92, 92); 
+    transition: calc(0.9s); 
+}
+.writing_part p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    margin: 15px;
+}
+/* main fixed box*/
+main .fixed {
+    position: fixed;
+    width: 5dvh;
+    background-color: rgb(226, 232, 232);
+    left: 0px;
+    top: 40%;
+    font-size: 20px;
+    padding: 10px;
+}
+main .fixed a i{
+    color: blue;
+    background-color: rgb(240, 248, 249);
+    padding: 5px;
+    margin-top: 10px;
+ 
+}
+main .fixed a:hover i{
+    color: rgb(239, 7, 189);
+}
+.massage_fixed{
+    position: fixed;
+    right: 0px;
+    bottom: 1px;
+    background-color: darkblue;
+    padding: 10px;
+   border-radius: 5px;  
+}   
+   
+.massage_fixed a {
+   color: azure;
+  font-size: 20px;
+  text-decoration: none;
+ 
+   
+}
+.massage_fixed a:hover {
+color: rgb(228, 147, 190);
+   
+}
+.massage_fixed i{
+   margin-left: 10px;
+   color: cadetblue;
+    
+}
+.massage_fixed i:hover{
+   color: aliceblue;
+    
+}
+
+
+/* main fixed*/
+
+.main_perent .ads{
+    display: flex;
+    width: 800px;
+    background-color: aliceblue;
+    box-shadow:  5px 5px 5px 5px rgb(171, 168, 168);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px ;
+}
+
+
+.ads .writing h2{
+   text-transform: capitalize;
+   font-weight: bold;
+   font-size:30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.ads .writing a{
+   text-transform: capitalize;
+   font-weight: bold;
+   font-size:15px;
+   color: aliceblue;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px 2px rgb(195, 192, 192);
+   text-decoration: none;
+   margin: 60px;
+   padding: 15px;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.ads .writing a:hover {
+   color: chartreuse;
+}
+.main_perent .adds_img {
+    width: 300px;
+    height: 200px;
+}
+.main_perent .adds_img img {
+   max-width: 100%;
+   height: 100%;
+}
+.writing_part h2{
+    color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: cadetblue;
+
+}
+/*main_section*/
+
+/*section_2*/
+.section_2{
+
+}
+.box_content_perent{
+    width: 900px;
+    margin: auto;
+
+}
+.box_content_perent .icon_img{
+   width: 800px;
+   height: 400px;
+   margin-left: 17px;
+   box-shadow: 3px 3px 3px 3px rgb(87, 85, 85);
+}
+.box_content_perent .icon_img img{
+ max-width: 100%;
+ height: 100%;
+}
+.writing_part p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+
+
+}
+.writing_part h2{
+    display: inline-block;
+    padding: 10px;
+    color: aliceblue;
+}
+.writing_part b{
+    font-size: 20px;
+    border-bottom: 2px solid red;
+}
+/*section_2*/
+.section3_perent{
+ width: 650px;
+ background-color: rgb(214, 245, 245);
+
+ text-align: center;
+ margin: auto;
+ padding: 30px;
+ margin-bottom: 40px;
+ box-shadow: 3px 3px 3px 3px rgb(100, 99, 99) ;
+}
+.section3_perent .writing3_part{
+   margin: 20px;
+}
+.section3_perent .writing3_part h1{
+ color: rgb(84, 3, 3);
+ text-transform: capitalize;
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.section3_perent .writing3_part h4{
+   margin: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section3_perent .input_email input{
+  width: 300px;
+  padding: 13px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.542);
+  font-style: italic;
+  text-transform: capitalize;
+transition: 0.08ms ;
+}
+
+.section3_perent .input_email input:hover {
+ background-color:transparent ;
+ color: black;
+}
+.section3_perent .input_email  a:hover{
+ background-color:transparent ;
+ color: black;
+}
+
+.section3_perent .input_email a{
+ margin-left:10px ;
+ background-color: blue;
+ text-decoration: none;
+ padding: 13px;
+ width: 60px;
+ color: azure;
+ font-size: 17px;
+ font-weight: bold;
+ text-transform: capitalize;
+ border-radius: 5px;
+ box-shadow: 2px 2px 2px 2px rgb(38, 55, 65);
+}
+
+.footer_menu{
+background-color: rgb(4, 65, 67);
+}
+.footer_menu .main_perent{
+    width: 1200px;
+ 
+    color: aliceblue;
+  display: flex; 
+  padding: 40px;
+  margin: auto;
+  justify-content: space-between; 
+}
+.main_perent .contact_info{
+    width: 350px;
+    margin-left:100px ;
+    margin: 10px;
+
+}
+.main_perent .contact_info a{
+  color: blue;
+
+}
+.footer_menu h2{
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.end_menu{
+    background-color: darkslategray;
+    color: antiquewhite;
+}
+.end_menu .copyright{
+    display:
+}
+
+
+
+
+
